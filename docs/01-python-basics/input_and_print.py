@@ -1,3 +1,4 @@
+#input与print
 name="小华"
 id=6918
 birthday="2006-12-18"
