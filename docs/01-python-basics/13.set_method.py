@@ -1,0 +1,10 @@
+#add()         添加元素到集合                              s.add()
+#remove()       移除集合指定的元素（若找不到会报错）            s.remove()
+#pop()          随机删除集合中的元素并返回删除的值              e = s.pop()
+#clear()         清空集合                                  s.clear()
+#difference()     求取两个集合的差集（包含在第一个但不包含在第二个） s.difference(s2)
+#union()          求取两个集合的并集                          s.union(s2)
+#intersection()    求取两个集合的交集                         s1.intersection(s2)
+s = {1,2,45,67}
+print(s.pop())
+print(s)
