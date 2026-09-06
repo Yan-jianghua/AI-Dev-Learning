@@ -21,3 +21,23 @@ while True:
             else:
                print("账号或密码错误请重新输入")
 
+# import random       random.randint(start,end)  生成start到end的随机数
+""""
+1.系统随机生成一个随机数
+2.用户根据提示猜数字，并将所猜的数字输入系统
+3.如果猜错，系统给出提示是猜大了，还是猜小了，然后继续输入猜的数字
+4.如果猜对，系统自动退出，游戏结束
+"""
+import random
+x=random.randint(1,100)
+while True:
+       x1=int(input("请输入您猜测的数字:"))
+       if x>x1:
+        print("猜小了")
+        continue
+       elif x<x1:
+        print("猜大了")
+        continue
+       else:
+        print(f"数字为{x1}")
+        break
