@@ -3,3 +3,18 @@
 #3.remove()     移除列表第一个匹配到的值                               s.remove(指定值)
 #4.pop()        删除列表中指定索引位置的元素（若未指定索引默认删最后一个）    s.pop(索引)
 #5.sort()         对列表进行排列（列表数据类型一致才可以排列）             s.sort()
+#6.revese()       反转列表元素                                       s.revese()
+#7 in             判断列表中是否包含某元素                              元素 in s
+s = ["a","b","c","hello","华"]
+s.append("huan")
+print(s)
+s.insert(3,4)
+print(s)
+s.remove(4)
+print(s)
+s.pop(0)
+print(s)
+s.sort()
+print(s)
+s.reverse()
+print(s)
