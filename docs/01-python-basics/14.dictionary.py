@@ -4,12 +4,13 @@
 
 #获取
 dict1 = {0:90,2:"323"}
+dict2 = {1:90,2:"323"}
 print(dict1[0])
 #修改
 dict1[0] = 30
 print(dict1[0])
-
-
+print(dict1)
+print(dict1.items())
 
 #增
 #字典名[key] = 值   key值不可重复重复会覆盖
